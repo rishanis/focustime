@@ -8,18 +8,18 @@ export const Timing = ({ onChangeTime }) => {
     <View style={styles.fixToText}>
       <Button
         color={colors.buttonColor}
+        title="5 min"
+        onPress={() => onChangeTime(5)}
+      />
+      <Button
+        color={colors.buttonColor}
         title="10 min"
         onPress={() => onChangeTime(10)}
       />
       <Button
         color={colors.buttonColor}
-        title="20 min"
-        onPress={() => onChangeTime(20)}
-      />
-      <Button
-        color={colors.buttonColor}
-        title="30 min"
-        onPress={() => onChangeTime(30)}
+        title="15 min"
+        onPress={() => onChangeTime(15)}
       />
     </View>
   );
