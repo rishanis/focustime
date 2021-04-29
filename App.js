@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Platform } from 'react-native';
-import AsyncStorage, { useAsyncStorage} from '@react-native-community/async-storage';
+import AsyncStorage from 'react-native';
+//import AsyncStorage, { useAsyncStorage} from '@react-native-community/async-storage';
 import { Focus } from './src/features/focus/Focus';
 import { FocusHistory } from './src/features/focus/FocusHistory';
 import { Timer } from './src/features/timer/Timer';
